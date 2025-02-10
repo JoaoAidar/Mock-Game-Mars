@@ -1,9 +1,24 @@
-//Code made by AIDAR 
-playerInput()
+playerInput();
 
-var hInput = inputPlayerD - inputPlayerA
-var vInput = inputPlayerS - inputPlayerW
+var hInput = inputPlayerD - inputPlayerA;
+var vInput = inputPlayerS - inputPlayerW;
 
-x+=hInput*mySpeed
-y+=vInput*mySpeed
+// Horizontal movement with collision
+for (var i = 0; i < abs(hInput * mySpeed); i++) {
+    var dir = sign(hInput);
+    if (!instance_place(x + dir, y, pCollidable)) {
+        x += dir;
+    } else {
+        break;
+    }
+}
 
+// Vertical movement with collision
+for (var i = 0; i < abs(vInput * mySpeed); i++) {
+    var dir = sign(vInput);
+    if (!instance_place(x, y + dir, pCollidable)) {
+        y += dir;
+    } else {
+        break;
+    }
+}
