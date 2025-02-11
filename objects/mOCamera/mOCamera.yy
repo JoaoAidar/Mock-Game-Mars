@@ -10,7 +10,7 @@
   "overriddenProperties":[],
   "parent":{
     "name":"Meta system",
-    "path":"folders/Objects/Meta system.yy",
+    "path":"folders/Objects/Game/Meta system.yy",
   },
   "parentObjectId":null,
   "persistent":false,

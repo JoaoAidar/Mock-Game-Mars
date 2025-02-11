@@ -5,7 +5,8 @@ inputPlayerD = false
 inputPlayerS = false
 inputPlayerW = false
 visibleToEntities = true
-
+myLife = 4
+//move_outside_solid(direction, 32)
 
 function playerInput(){
 	inputPlayerA = keyboard_check(ord("A"))
