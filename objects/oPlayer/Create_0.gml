@@ -8,6 +8,9 @@ visibleToEntities = true
 myLife = 4
 //move_outside_solid(direction, 32)
 
+cooldownTimer = 0
+cooldownTime = 60
+
 function playerInput(){
 	inputPlayerA = keyboard_check(ord("A"))
 	inputPlayerD = keyboard_check(ord("D"))
