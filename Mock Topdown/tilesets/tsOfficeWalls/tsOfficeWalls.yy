@@ -1,0 +1,49 @@
+{
+  "$GMTileSet":"v1",
+  "%Name":"tsOfficeWalls",
+  "autoTileSets":[
+    {"$GMAutoTileSet":"","%Name":"autotile_1","closed_edge":false,"name":"autotile_1","resourceType":"GMAutoTileSet","resourceVersion":"2.0","tiles":[
+        16,68,65,0,1,0,0,0,4,79,0,0,0,0,0,0,36,73,0,0,51,0,0,0,33,0,0,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+        0,
+      ],},
+  ],
+  "macroPageTiles":{
+    "SerialiseHeight":20,
+    "SerialiseWidth":19,
+    "TileCompressedData":[
+      -40,0,-16,51,-2,0,1,36,-16,16,3,33,0,36,-16,16,3,33,0,36,-16,16,3,33,0,36,-16,16,3,33,0,36,-16,16,3,
+      33,0,36,-16,16,3,33,0,36,-16,16,3,33,0,36,-16,16,3,33,0,36,-16,16,3,33,0,36,-16,16,3,33,0,36,-16,16,
+      3,33,0,36,-16,16,3,33,0,36,-16,16,3,33,0,36,-16,16,3,33,0,36,-16,16,3,33,0,36,-16,16,3,33,0,0,-16,2,
+      1,0,
+    ],
+    "TileDataFormat":1,
+  },
+  "name":"tsOfficeWalls",
+  "out_columns":11,
+  "out_tilehborder":2,
+  "out_tilevborder":2,
+  "parent":{
+    "name":"Tile Sets",
+    "path":"folders/Tile Sets.yy",
+  },
+  "resourceType":"GMTileSet",
+  "resourceVersion":"2.0",
+  "spriteId":{
+    "name":"Little_Bits_office_walls",
+    "path":"sprites/Little_Bits_office_walls/Little_Bits_office_walls.yy",
+  },
+  "spriteNoExport":false,
+  "textureGroupId":{
+    "name":"Default",
+    "path":"texturegroups/Default",
+  },
+  "tileAnimationFrames":[],
+  "tileAnimationSpeed":15.0,
+  "tileHeight":16,
+  "tilehsep":0,
+  "tilevsep":0,
+  "tileWidth":16,
+  "tilexoff":0,
+  "tileyoff":0,
+  "tile_count":112,
+}
